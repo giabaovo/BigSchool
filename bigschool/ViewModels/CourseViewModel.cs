@@ -28,7 +28,7 @@ namespace bigschool.ViewModels
         public IEnumerable<Category> Categories { get; set; }
         public DateTime GetDateTime()
         {
-			return DateTime.Parse(string.Format("{0} {1}", Date, Time), CultureInfo.InvariantCulture);
+			return DateTime.Parse(String.Format("{0} {1}", Date, Time), CultureInfo.InvariantCulture);
 
 		}
 		public string Heading { get; set; }

@@ -75,7 +75,8 @@ namespace bigschool.Controllers
 			return View(viewModel);
 		}
 
-		[Authorize]
+
+        [Authorize]
 		public ActionResult Mine()
 		{
 			var userId = User.Identity.GetUserId();
